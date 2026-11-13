@@ -1,0 +1,9 @@
+name = "polyfrost-crowdin-relay"
+main = "build/index.js"
+compatibility_date = "2026-11-01"
+
+[build]
+command = "cargo install -q worker-build@^0.9 && worker-build --release"
+
+[observability]
+enabled = true
